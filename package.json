@@ -1,0 +1,27 @@
+{
+  "name": "range-slider-integer",
+  "version": "0.0.1",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "budo demo/demo.js:bundle.js --live --open",
+    "build": "browserify demo/demo.js > bundle.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Chrrrisss/range-slider-integer.git"
+  },
+  "author": "christopher",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Chrrrisss/range-slider-integer/issues"
+  },
+  "homepage": "https://github.com/Chrrrisss/range-slider-integer#readme",
+  "dependencies": {
+    "browserify": "^17.0.0",
+    "budo": "^11.8.4",
+    "create-sample-11": "^0.0.2",
+    "range-slider-213": "^0.0.1"
+  }
+}
