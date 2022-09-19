@@ -8,12 +8,12 @@ function range_slider_integer (opts) {
     const shadow = el.attachShadow({ mode: "closed" })
     
     const range_slider = range(opts, listen)
-    const input_integer = integer(opts)
+    const create_sample = integer(opts, listen)
 
     const output = document.createElement("div")
     output.innerText = 0
 
-    shadow.append(range_slider, input_integer, output)
+    shadow.append(range_slider, create_sample, output)
 
     return el
 
